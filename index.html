@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vidyastu-Learn Programming</title>
+    <link rel="shortcut icon" href="https://vidyastu.in/wp-content/uploads/2022/09/cropped-vidyastu1-120x167.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/cropped-vidyastu1-120x167.png"  class="img" alt="vidyastu.logo">
+            <a class="navbar-brand" href="index.html">home</a>
+            <a class="navbar-brand" href="aboutus.html">about us</a>
+            <a class="navbar-brand" href="#">courses</a>
+            <a class="navbar-brand" href="contact.html">contact us</a>
+            <a class="navbar-brand" id="btn" href="#" onclick="myfunction()";>book a demo class</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="glyphicon glyphicon-user" ></i></button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h6 class="offcanvas-title" id="offcanvasRightLabel">Welcome to Vidyastu</h6>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div><br>
+            <div class="offcanvas-body">
+              <p class="form-data">To keep connected with us please <br>login to your account</p>
+              <input type="text" id="email-nmbr" class="form-fill" placeholder="Email address or Phone number"><br>
+              <input type="password" id="pwd" class="form-fill" placeholder="password"><br><br>
+              <button class="create" id="log-btn">Log in</button><br>
+              <a href="" class="Forgotten">Forgotten password ?</a><br><br><br>
+              <button class="create">Create New Account</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="dropurmsg1">
+        <div id="myform" style="display:none; text-align: center;">
+        <form action="https://formspree.io/f/xoqzwwkz" method="post"><br>
+          <p style="color: brown; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;font-size: x-large;"> Please Fill Your Details</p>
+          <input class="dropurmsg" type="text" placeholder="Enter Your Full Name" id="full-name" name="full-name" required><br>
+          <input class="dropurmsg" type="email" placeholder="Enter Your Email id" id="mailid" name="mail id" required><br>
+          <input class="dropurmsg" type="number" placeholder="Enter Your Phone Number" id="mobile-number" name="mobile-number" required><br>
+          <select class="dropurmsg" id="select-course" name="select-course" required>
+            <option value="" selected disabled>Select Your course </option>
+            <option value="Python">Python, MySQL & Data Science</option>
+            <option value="C">C and C++</option>
+            <option value="Java">Core and advanced Java</option>
+            <option value="WordPress">HTML, CSS, PHP, WordPress</option>
+            <option value="React">HTML, CSS,JavaScript, React</option>
+            <option value="Android">Android App Development</option>
+            <option value="MERN">MERN Stack Development</option>
+            <option value="MEAN">MEAN Stack Development</option>
+            <option value="Aptitude">Aptitude and Reasoning</option>
+            <option value="English">Corporate Grooming</option>
+          </select><br>
+          <input class="dropurmsg" type="submit" value="Submit" id="writecmnt">
+        </form>
+    </div>
+    <script>
+        function myfunction(){
+        document.getElementById("myform").style.display = "block";
+        alert("WELCOME TO VIDYASTU !! বাঙালি বাংলায় শিখবে, বাংলায় চাকরি করবে ৷   BOOK YOUR DEMO CLASS.  WE WILL REACH OUT TO YOU SOON.");
+        }
+    </script>
+    </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/slider1.jpg" class="d-block w-100" alt="logo">
+          </div>
+          <div class="carousel-item">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/slider2-1.jpg" class="d-block w-100" alt="logo">
+          </div>
+          <div class="carousel-item">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/slider3-1.jpg" class="d-block w-100" alt="logo">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <div id="h8">
+          <marquee behavior="alternate" scrollamount="6" direction="left">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/html.jpg" alt="html">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/css.jpg" alt="css">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/js.jpg"  alt="javascript" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/react.jpg"  alt="react" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/java.jpg"  alt="java">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/android.jpg"  alt="android">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/python.jpg"  alt="python" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/wordpress.jpg"  alt="wordpress" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/c.jpg"  alt="c">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/c_plus.jpg" alt="c++" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/Aptitude_and_reasoning.jpg"  alt="Aptitude_and_reasoning">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/cg.jpg" alt="cg">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/salesforce.jpg" alt="salesforce">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/sap.jpg" alt="sap">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/tableau.jpg" alt="tableau">
+          </marquee>
+        </div>
+        <div class="tech">
+          <h1 class="tech-hd">Learn Technology and get a job instantly</h1>
+          <button class="btn-vidya">why vidyastu</button>
+        </div>
+        <div class="placement">
+          <h2>Our students placed in</h2>
+          <marquee class="company" behavior="alternate" scrollamount="4" direction="left">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/tcs-logo-1.png" alt="tcs">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/wipro-logo-1.png" alt="wipro">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/cognizant-logo.png"  alt="cts" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/ibm.png"  alt="IBM" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/capgemini-logo.png"  alt="capgemini-logo">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/infosis-logo.png"  alt="infosis-logo">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/accenture_logo.png"  alt="accenture_logo" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/genpact-logo.png"  alt="genpact-logo" >
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/sibia.png"  alt="sibia">
+          </marquee>
+        </div>
+        <div class="students">
+          <h2>Recently placed Students</h2><br><br>
+          <div class="students-img">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/megha_ghosh.jpg"  alt="pic-logo">
+            <div class="note1">
+              <h4 style="font-size: x-large;">Megha Ghosh</h4>
+              <p>Software Developer<br>Cognizant</p>
+            </div>
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/arinita_paul.jpg"  alt="pic-logo">
+            <div class="note2">
+              <h4 style="font-size: x-large;">Arinita Paul</h4>
+              <p>Cloud Senior analysist<br>Accenture</p>
+            </div>
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/sayan_ghosh.jpg"  alt="pic-logo" >
+            <div class="note3">
+              <h4 style="font-size: x-large;">Sayan Ghosh</h4>
+              <p>Web Developer<br>MS Technology Solution Pvt Ltd</p>
+            </div>
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/riya_mondal.jpg"  alt="pic-logo" >
+            <div class="note4">
+              <h4 style="font-size: x-large;">Riya Mondal</h4>
+              <p>Software Developer<br>MS Technology Solution Pvt Ltd</p>
+            </div>
+          </div>
+        </div><br><br><br><br><br><br><br><br>
+        <div class="features">
+          <div>
+            <h2>Key Features</h2>
+          </div><br><br><br>
+          <div class="features-img-data">
+            <div class="Programming-pic">
+              <img src="https://vidyastu.in/wp-content/uploads/2022/09/What-to-Check-in-a-Monitor-for-Programming.jpg" alt="Programming">
+            </div>
+            <div class="list-data">
+              <ul>
+                <li>চল্লিশ ঘণ্টার লাইভ ক্লাস</li>
+                <li>৫০০+ ইন্টারভিউ প্রবলেমস প্র‍্যাক্টিকালি সলভ</li>
+                <li>১০ বছরের বেশি ইন্ডাস্ট্রিয়াল অভিজ্ঞতা সম্পন্ন ফ্যাকাল্টি</li>
+                <li>গভর্নমেন্ট রেজিস্টার্ড কোর্স কমপ্লিশন সার্টিফিকেট</li>
+                <li>১০টি ডেমো ভিডিও</li>
+                <li>সমস্ত লাইভ ক্লাসের ভিডিও রেকর্ডিং এর লাইফটাইম অ্যাক্সেস</li>
+                <li>সমস্ত স্টাডি মেটেরিয়ালস, নোটসের লাইফটাইম অ্যাক্সেস</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="ourcourse">
+        <div class="crse-hding">
+          <h2>Our Courses</h2>
+        </div><br><br>
+        <div class="courses-frst-row">
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/python.jpg" alt="python.jpg"><br>
+            <h2>Python, MySQL and<br>Data Science</h2>
+            <p>
+              Python is a high-level, general-purpose <br>programming language.Its design<br> philosophy emphasizes code readability<br> with the use of significant indentation.
+            </p><br><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/c.jpg" alt="c_plus.jpg"><br>
+            <h2>C and C++</h2>
+            <p>
+              C is a general-purpose computer <br>programming language. It was created<br> in the 1970s by Dennis Ritchie, and <br>remains very widely used and influential.<br>It has found lasting use in operating<br> systems, device drivers, protocol stacks.
+            </p><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/java.jpg" alt="java.jpg"><br>
+            <h2>Core and advanced <br>Java</h2>
+            <p>
+              Java is a high-level, class-based, <br>object-oriented programming <br>language that is designed to<br> have as few implementation<br> dependencies as possible.
+            </p><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+        </div>
+        <div class="courses-second-row">
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/html.jpg" alt="html.jpg"><br>
+            <h2>HTML, CSS, PHP, <br>WordPress</h2>
+            <p>
+              The HyperText Markup Language or<br> HTML is the standard markup language <br>for documents designed to be displayed <br>in a web browser. It can be assisted<br> by CSS & Javascript.
+            </p><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/react.jpg" alt="react.jpg"><br>
+            <h2>HTML, CSS,<br> JavaScript, React</h2>
+            <p>
+              React is a free and open-source <br>front-end JavaScript library for<br> building user interfaces based on<br> UI components.It is maintained <br>by Meta and a community of in.
+            </p><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/android.jpg" alt="android.jpg"><br>
+            <h2>Android App <br>Development</h2>
+            <p>
+              Android is a mobile operating system based <br>on a modified version of the Linux kernel<br> and other open source software, designed<br> primarily for touchscreen mobile devices <br>such as smartphones and tablets.
+            </p><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+        </div>
+        <div class="courses-third-row">
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/salesforce.jpg" alt="salesforce.jpg"><br>
+            <h2>Python, MySQL,<br> Salesforce CRM</h2>
+            <p>
+              Salesforce, Inc. is an American <br>cloud-based software company <br>headquartered in San Francisco, <br>California. It provides customer <br>relationship management software.
+            </p><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/Aptitude_and_reasoning.jpg" alt="react.jpg"><br>
+            <h2>Aptitude and <br>Reasoning</h2>
+            <p>
+            Aptitude and Reasoning tests simply <br>mean to measure or determine a person's <br>ability in a particular skill or field of <br>knowledge.Reasoning is a process of <br>evaluation,Aptitude is capability.
+            </p><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+          <div class="frst-row-subject">
+            <img src="https://vidyastu.in/wp-content/uploads/2022/09/cg.jpg" alt="cg.jpg"><br>
+            <h2>Spoken English &<br> Corporate Grooming</h2>
+            <p>
+              Corporate dressing refers to <br>sensible dressing at work place which <br>helps an individual to make a mark of <br>his/her own in the first meeting itself.
+            </p><br><br>
+            <button style="float: left;">Buy</button>
+            <button style="float: right;">Demo</button>
+          </div>
+        </div>
+      </div>
+      <footer class="last-portion">
+        <div class="last-portion-frst-section">
+          <div class="quick-links">
+            <h3>
+              QUICK LINKS
+            </h3>
+            <a href="#">Terms & Conditions</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Refund & Cancellation Policy</a><br>
+            <a href="contact.html">Contact Us</a>
+          </div>
+          <div class="contact-us">
+            <h3>
+              CONTACT US
+            </h3>
+            <p> 74 Rastraguru Avenue, Jolina Apartment,<br> dumdum nagerbazar, kolkata - 700028<br>
+              (+91) 8910055880<br>
+              vidyastuonline@gmail.com
+            </p>
+          </div>
+          <div class="map">
+            <h3>FIND US ON MAP</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.706305344881!2d88.41347471496059!3d22.62743998515466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89f84ffe6bc51%3A0x1c1b7078b2b637b0!2sShovona%20Apartment!5e0!3m2!1sen!2sin!4v1677581409439!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="last-portion-second-section">
+          <p class="allrights">©2023 All Rights Reserved by  Vidyastu</p>
+          <p>Powered by DEM</p>
+        </div>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+  </html>
