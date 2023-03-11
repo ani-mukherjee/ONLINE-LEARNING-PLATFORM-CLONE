@@ -280,7 +280,7 @@ marquee img{
     color: rgb(158, 78, 250);
 }
 .students-img{
-    margin-left: 30px;
+    margin-left: 40px;
     margin-bottom: 20px;
     position: relative;
 }
@@ -299,6 +299,7 @@ marquee img{
 .features-img-data{
     display: flex;
     margin-bottom: 5px;
+    margin-left: 10px;
 }
 .Programming-pic img{
     width: 550px;
