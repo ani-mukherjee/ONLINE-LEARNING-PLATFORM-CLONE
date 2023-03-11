@@ -222,9 +222,9 @@ marquee img{
     color: rgb(41,112,216);
 }
 .students img{
-    width: 300px;
+    width: 305px;
     height: 330px;
-    margin-right: 50px;
+    margin: 10px;
     border-radius: 20%;
     border-color: red;
     border-width: 1px;
