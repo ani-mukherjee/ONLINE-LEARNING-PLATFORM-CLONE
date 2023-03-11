@@ -214,6 +214,9 @@ marquee img{
     margin-bottom: 40px;
    
 }
+.side-portion{
+    padding-left: 22px;
+}
 .students h2{
     text-align: center;
     font-size: 40px;
@@ -222,7 +225,7 @@ marquee img{
     color: rgb(41,112,216);
 }
 .students img{
-    width: 305px;
+    width: 300px;
     height: 330px;
     margin: 10px;
     border-radius: 20%;
