@@ -214,9 +214,6 @@ marquee img{
     margin-bottom: 40px;
    
 }
-.students{
-    margin-left: 20px;
-}
 .students h2{
     text-align: center;
     font-size: 40px;
@@ -225,9 +222,10 @@ marquee img{
     color: rgb(41,112,216);
 }
 .students img{
-    width: 300px;
+    width: 310px;
     height: 330px;
     margin: 10px;
+    padding-right: 20px;
     border-radius: 20%;
     border-color: red;
     border-width: 1px;
@@ -280,12 +278,11 @@ marquee img{
     color: rgb(158, 78, 250);
 }
 .students-img{
-    margin-left: 40px;
+    margin-left: 30px;
     margin-bottom: 20px;
     position: relative;
 }
 .features{
-    margin-left: 10px;
     height: 500px;
 }
 .features h2{
@@ -299,7 +296,6 @@ marquee img{
 .features-img-data{
     display: flex;
     margin-bottom: 5px;
-    margin-left: 10px;
 }
 .Programming-pic img{
     width: 550px;
@@ -323,7 +319,6 @@ ul li{
     list-style:square;
 }
 .ourcourse{
-    margin-left: 15px;
     margin-bottom: 110px;
 }
 .crse-hding h2{
