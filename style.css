@@ -214,6 +214,9 @@ marquee img{
     margin-bottom: 40px;
    
 }
+.students{
+    margin-left: 20px;
+}
 .students h2{
     text-align: center;
     font-size: 40px;
@@ -282,6 +285,7 @@ marquee img{
     position: relative;
 }
 .features{
+    margin-left: 10px;
     height: 500px;
 }
 .features h2{
@@ -318,6 +322,7 @@ ul li{
     list-style:square;
 }
 .ourcourse{
+    margin-left: 15px;
     margin-bottom: 110px;
 }
 .crse-hding h2{
