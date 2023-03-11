@@ -224,7 +224,7 @@ marquee img{
 .students img{
     width: 300px;
     height: 330px;
-    margin-left: 70px;
+    margin-right: 60px;
     border-radius: 20%;
     border-color: red;
     border-width: 1px;
